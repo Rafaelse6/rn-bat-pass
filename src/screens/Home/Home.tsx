@@ -6,8 +6,11 @@ import { BatLogo } from "../../components/BatLogo/BatLogo";
 
 export default function Home() {
   return (
-    <View style={styles.container}>
-      <BatLogo />
+    <View style={styles.appContainer}>
+      <View style={styles.logoContainer}>
+        <BatLogo />
+      </View>
+
       <Text>Home works!!!</Text>
       <StatusBar style="auto" />
     </View>
